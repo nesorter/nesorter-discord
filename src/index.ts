@@ -29,7 +29,7 @@ export const Bot = async (config: Config) => {
   const audioPlayer = createAudioPlayer({
     behaviors: {
       noSubscriber: NoSubscriberBehavior.Play,
-      maxMissedFrames: Math.round(5000 / 20),
+      maxMissedFrames: 5000,
     },
   });
 
@@ -46,6 +46,7 @@ export const Bot = async (config: Config) => {
     }),
     {
       inputType: StreamType.OggOpus,
+      silencePaddingFrames: 10,
     },
   );
 

@@ -51,3 +51,8 @@ Bot({
   // audioResource - https://discord.js.org/docs/packages/voice/main/AudioResource:Class
 });
 ```
+
+- So, start app with:
+```bash
+node index.js
+```

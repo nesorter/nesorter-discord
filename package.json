@@ -8,8 +8,17 @@
     "build": "rimraf ./build && tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesorter/nesorter-discord.git"
+  },
+  "author": "kugichka <kugi@kugi.club>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+      "url": "https://github.com/nesorter/nesorter-discord/issues"
+    },
+  "homepage": "https://github.com/nesorter/nesorter-discord#readme",
   "dependencies": {
     "discord.js": "^13.10.3",
     "@discordjs/core": "^1.0.1",

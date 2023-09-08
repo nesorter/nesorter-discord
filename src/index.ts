@@ -46,7 +46,7 @@ export const Bot = async (config: Config) => {
     }),
     {
       inputType: StreamType.OggOpus,
-      silencePaddingFrames: 10,
+      silencePaddingFrames: 0,
     },
   );
 

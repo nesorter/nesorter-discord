@@ -1,12 +1,14 @@
 {
   "name": "@nesorter/discord-stream-lib",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Discord bot for playing music from web-radio",
   "main": "./build/index.js",
-  "type": "module",
   "scripts": {
     "build": "rimraf ./build && tsc"
   },
+  "files": [
+    "build"
+  ],
   "keywords": [],
   "repository": {
     "type": "git",

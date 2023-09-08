@@ -1,6 +1,14 @@
 # nesorter-discord
 ## Discord bot for playing music from web-radio
 
+### Requirements
+- `ffmpeg` installed on host and available in $PATH
+- your bot added to server where you want restream music
+
+### Helpful Links
+- [Getting a Discord Bot Token](https://github.com/moonstar-x/discord-downtime-notifier/wiki/Getting-a-Discord-Bot-Token)
+- [Adding Your Bot To Your Server](https://github.com/moonstar-x/discord-downtime-notifier/wiki/Adding-Your-Bot-To-Your-Server)
+- [Getting User, Channel and Server IDs](https://github.com/moonstar-x/discord-downtime-notifier/wiki/Getting-User,-Channel-and-Server-IDs)
 ### How to use
 
 - Init Node.JS package/project

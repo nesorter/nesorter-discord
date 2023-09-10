@@ -1,3 +1,6 @@
+# ARCHIVED AND ABANDONED
+# GOTO [THIS REPO](https://github.com/nesorter/monorepo/tree/main/packages/discord-stream-lib#readme)
+
 # nesorter-discord
 ## Discord bot for playing music from web-radio
 
